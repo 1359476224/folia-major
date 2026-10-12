@@ -11,6 +11,20 @@
   "vars": {
     "VITE_QQ_API_BASE": "/api/qq"
   },
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "QQ_QR_CHANNEL",
+        "class_name": "QqQrChannel"
+      }
+    ]
+  },
+  "migrations": [
+    {
+      "tag": "v1",
+      "new_classes": ["QqQrChannel"]
+    }
+  ],
   "assets": {
     "directory": "./dist",
     "binding": "ASSETS",
