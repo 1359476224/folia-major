@@ -8,12 +8,15 @@
     "process.env.JEST_WORKER_ID": "undefined",
     "process.env.LOG_LEVEL": "undefined"
   },
+  "vars": {
+    "VITE_QQ_API_BASE": "/api/qq"
+  },
   "assets": {
     "directory": "./dist",
     "binding": "ASSETS",
     "not_found_handling": "single-page-application",
     "run_worker_first": [
-      "/api/*"
+      "/api/"
     ]
   }
 }
