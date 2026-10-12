@@ -22,7 +22,7 @@
   "migrations": [
     {
       "tag": "v1",
-      "new_classes": ["QqQrChannel"]
+      "new_sqlite_classes": ["QqQrChannel"]
     }
   ],
   "assets": {
